@@ -1,34 +1,43 @@
 .opcoes {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .conteudo_cursos {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 200px;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-  }
-  
-  .opcoes:hover .conteudo_cursos {
-    display: block; /* Mostra quando o mouse passa por cima do container */
-  }
-  
-  .cursos {
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-  
-  .conteudo_cursos a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .conteudo_cursos a:hover {
-    background-color: #ddd;
-  }
-  
+  position: relative;
+  display:inline-block;
+  justify-content: left;
+}
+
+.cursos {
+  text-decoration: none;
+  color: white;
+  margin: 0 5px;
+  padding: 20px 25px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font: inherit; 
+}
+.cursos:hover{
+background-color: red;
+}
+.conteudo_cursos {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 20px 25px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  flex-direction: column;
+}
+
+.conteudo_cursos a {
+  color: black;
+  padding: 20px 25px;
+  text-decoration: none;
+  display: block;
+}
+
+.conteudo_cursos a:hover {
+  background-color: #f1f1f1;
+}
+
+.opcoes:hover .conteudo_cursos {
+  display: flex;
+}

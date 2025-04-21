@@ -17,6 +17,15 @@
       nav a:hover {
         background-color: red;
         }
+        .esquerda {
+          display: flex;
+          align-items: center;
+      }
+      
+      .direita {
+          display: flex;
+          align-items: center;
+      }
 
     .logo{
         background: green;
@@ -48,4 +57,22 @@
         background-color: rgb(41, 172, 41);
         color: white;
       }
-    
+      
+      .usuario{
+        border: 5px solid white;
+        background-color: rgb(218, 216, 216);
+        padding: 15px 20px;
+        width: 100%;
+      }
+      .senha{
+        border: 5px solid white;
+        background-color: rgb(218, 216, 216);
+        padding: 15px 20px;
+        width: 100%;
+      }
+      .esqueci{
+        border: 5px solid white; 
+        background-color: rgb(218, 216, 216);       
+        padding: 15px 20px;
+        width: 100%;
+      }

@@ -5,17 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contatos</title>
     <link rel="stylesheet" href="cabeçalho.css">
+    <link rel="stylesheet" href="botaoCurso.css">
 </head>
 <body>
     <nav class ="cabeçalho" >
-        <div>
+        <div class="esquerda">
             <a href="index.html">HOME</a> 
             <a href="eventos.html">EVENTOS</a> 
             <a href="contato.html">CONTATO</a> 
-            <a href="cursos.html">CURSOS</a>
-            <a href="entrar.html">ENTRAR</a>
+            <div class="opcoes">
+                <button class="cursos">CURSOS</button>
+                <div class="conteudo_cursos">
+                    <a href="ads.html">Análise e Desenvolvimento de Sistemas</a>
+                    <a href="ep.html">Engenharia de Produção</a>
+                </div>
+            </div>
+            <a href="entrar.html">ENTRAR</a>      
         </div>
-        <div >
+        <div class="direita">
             <a href="sobre.html" id="sobre">SOBRE</a>
         </div>
     </nav>
@@ -28,24 +35,24 @@
         <ul>
             <li> <label for="Nome">Nome </label>
                 <input type="text" name="Nome" id="nome" required></li>
-            <li><label for="E-mail">E-mail </label>
-            <input type="email" name="E-mail" id="email"></li>
-            <li><label for="Telefone">Telefone</label>
-            <input type="text" name="Telefone" id="tel" required> (99) 9999-9999</li>
-            <li>
-                <select name="Assunto" id="assunto" required>
+            <li><label for="E-mail">E-mail <br></label>
+            <input type="email" name="E-mail" id="email" class="info" required></li> <br>
+            <li><label for="Telefone">Telefone (99) 9999-9999 <br></label>
+            <input type="text" name="Telefone" id="tel" required class="info"> </li> <br>
+            <li>Assunto <br>
+                <select name="Assunto" id="assunto" required class="eventos">
                     <option value="Selecione">-- Selecione --</option>
                     <option value="Reclamação">Reclamação</option>
                     <option value="Sugestão">Sugestão</option>
                 </select>
             </li>
-            <li>Mensagem <textarea name="Mensagem" id="mensagem" required></textarea></li>
-            <li><fieldset>
+            <li>Mensagem <br><textarea name="Mensagem" id="mensagem" required class="info"></textarea></li>
+            <li><fieldset style="font-weight: 800; border: 1.5px solid black;">
                 <legend>Opções de Resposta</legend>
                 E-mail<input type="checkbox" name="E-mail" id="email">
                 Telefone<input type="checkbox" name="Telefone" id="tel">
-            </fieldset></li>
-            <li><input type="submit" value="Enviar"></li>
+            </fieldset></li><br><br>
+            <input type="submit" value="Enviar" class="botão">
         </ul>
     </form> <br><br>
     <span>

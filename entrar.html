@@ -4,23 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Entrar</title>
+    <link rel="stylesheet" href="cabeçalho.css">
+    <link rel="stylesheet" href="botaoCurso.css">
 </head>
+
 <body>
-    <nav style="text-align: right;">
-        <a href="index.html">HOME</a> |
-        <a href="eventos.html">EVENTOS</a> |
-        <a href="contato.html">CONTATO</a> |
-        <a href="sobre.html">SOBRE</a> |
-        <a href="entrar.html">ENTRAR</a>
+    <nav class ="cabeçalho" >
+        <div class="esquerda">
+            <a href="index.html">HOME</a> 
+            <a href="eventos.html">EVENTOS</a> 
+            <a href="contato.html">CONTATO</a> 
+            <div class="opcoes">
+                <button class="cursos">CURSOS</button>
+                <div class="conteudo_cursos">
+                    <a href="ads.html">Análise e Desenvolvimento de Sistemas</a>
+                    <a href="ep.html">Engenharia de Produção</a>
+                </div>
+            </div>
+            <a href="entrar.html">ENTRAR</a>      
+        </div>
+        <div class="direita">
+            <a href="sobre.html" id="sobre">SOBRE</a>
+        </div>
     </nav>
-    <img src="Logo if.jpg" alt="Logo">
+    <div class="logo">
+        <img src="Logo if.jpg" alt="Logo">
+
+    </div>
     <h1>Entrar</h1>
-    <label for="Usuário">Usuário</label>
-    <input type="text" name="Usuário" id="usuário"> <br><br>
-    <label for="Senha">Senha</label>
-    <input type="text" name="Senha" id="senha"> <br><br>
-    <input type="submit">
-    <a href="">Esqueci a Senha</a>
+
+        <div class="usuario">
+            <label for="Usuário" >Usuário</label>
+            <input type="text" name="Usuário" id="usuário"> <br><br>
+        </div>
+
+        <div class="senha">
+            <label for="Senha">Senha</label>
+            <input type="text" name="Senha" id="senha"> <br><br>
+        </div>
+
+        <div class="esqueci">
+            <input type="submit" class="botão">
+            <a href="">Esqueci a Senha</a>
+            
+        </div>
+
+    
 
     <br><br><br><br>
     <span>
