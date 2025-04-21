@@ -1,0 +1,51 @@
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 25px;
+        background-color: rgb(53, 53, 53);
+      }
+      
+      nav a {
+        text-decoration: none;
+        color: white;
+        margin: 0 5px;
+        padding: 20px 25px;
+
+      }
+      
+      nav a:hover {
+        background-color: red;
+        }
+
+    .logo{
+        background: green;
+        padding: 0px;
+    }
+
+    .legenda{
+        border: 1px solid black;
+    }
+
+    select.eventos {
+        text-align: left; 
+        background-color: rgb(216, 211, 211);
+        padding: 15px 20px; 
+        width: 100%; 
+        box-sizing: border-box; 
+      }
+      
+      .info{
+        padding: 15px 20px; 
+        width: 100%; 
+        box-sizing: border-box; 
+      }
+
+      .botão{
+        padding: 15px 20px; 
+        width: 100%; 
+        border: 0px solid white;
+        background-color: rgb(41, 172, 41);
+        color: white;
+      }
+    

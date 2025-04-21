@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+    <link rel="stylesheet" href="cabeçalho.css">
+</head>
+<body>
+    <nav style="text-align: right;">
+        <div>
+            <a href="index.html">HOME</a> 
+            <a href="eventos.html">EVENTOS</a> 
+            <a href="contato.html">CONTATO</a> 
+            <a href="entrar.html">ENTRAR</a>
+        </div>
+        <div>
+            <a href="sobre.html">SOBRE</a> 
+        </div>
+    </nav>
+
+    <div class="logo">
+        <img src="Logo if.jpg" alt="Logo">
+    </div>
+
+    <h1>Inscreva-se</h1>
+    
+    <form>
+        <fieldset >
+            Eventos <br>
+            <select name="eventos" required class="eventos">
+                    <option value="">-- Selecione --</option>
+                    <option value="">Voe sem asas</option>
+                    <option value="">Festa junina</option>
+                    <option value="">Semana de tecnologia</option>
+            </select>
+
+        </fieldset>
+    </form>
+    
+    <form >
+        <fieldset>
+            <legend>Informações de acesso</legend> <br>
+            <label for="usuário">Usuário </label>
+            <input type="text" name="usuário" id="usuário" required> <br><br>
+            <label for="senha">Senha </label>
+            <input type="password" name="Senha" id = "senha" required> <br> <br>
+            <label for="senha">Confirme a Senha </label>
+            <input type="password" name="Senha" id="senha" required>
+        </fieldset>
+    
+        <fieldset>
+            <legend>Informações pessoais</legend> <br>
+            <label for="Nome Completo">Nome Completo </label> 
+            <input type="text" name="Nome Completo" id="NomeComp" required> <br><br>
+            <label for="E-mail">E-mail <br></label> 
+            <input type="email" name="E-mail" id="email" class="info"> <br><br>
+            <label for="Celular">Celular (99)99999-9999 <br></label>
+            <input type="text" name="Celular" id="cel" required class="info"> <br> <br>
+            <fieldset style="font-weight: 800;border: 1.5px solid black;"> 
+                <legend>Sexo</legend> 
+                <input type="radio" value="Masculino" name="sexo"> Masculino
+                <input type="radio" value="Feminino" name="sexo"> Feminino
+            </fieldset> <br>
+            <label for="Data de Nascimento">Data de Nascimento</label>
+            <input type="date" name="Data de Nascimento" id="dataNasc" required> <br> <br>
+            <label for="Cor favorita">Cor Favorita</label>
+            <input type="color" name="Cor favorita" id="corFavorita"> <br><br>
+            <label for="Perfil no Github">Perfil no Github <br></label>
+            <input type="url" name="Perfil no Github" id="perfilGit" class="info"> 
+        </fieldset>
+      <br>
+            <input type="submit" value="Inscrever" class="botão"><br><br>
+            <input type="reset" value="Limpar" class="botão">
+
+    </form> <br><br>
+
+    
+
+    <span>
+        <a href="https://www.facebook.com/ifsppirituba" target="_blank">
+        <img src="facebook.png" alt="facebook" width="50px">
+        </a>
+    </span>
+
+</body>
+<footer>
+    <p>IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011) 2504-0100</p>
+    
+    </footer>
+</html>
